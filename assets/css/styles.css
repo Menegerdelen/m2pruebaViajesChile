@@ -6,8 +6,31 @@ body{
 
 /* nav */
 nav{
-    background-color: rgb(76, 189, 189);
+    background-color: #43b1b1;
 }
 nav div a img{
     width: 2rem;
+}
+
+hr{
+    height: 0.1rem;
+    background-color: #ffffff;
+    opacity: 1;}
+
+/*´resentacion */
+section{
+    color: white;
+}
+h2{
+    font-size: 2rem;
+}
+.svgPResentacion{
+    background-color: #43b1b1 ;
+}
+i{
+    width: 4rem;
+    height: 4rem;
+}
+.voltear{
+    transform: rotate(30deg);
 }
