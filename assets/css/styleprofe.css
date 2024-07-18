@@ -1,0 +1,13 @@
+
+body{
+    background-color: black;
+}
+
+
+/* nav */
+nav{
+    background-color: #43b1b1;
+}
+nav div a img{
+    width: 2rem;
+}
