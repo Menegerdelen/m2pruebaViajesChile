@@ -27,10 +27,6 @@ h2{
 .svgPResentacion{
     background-color: #43b1b1 ;
 }
-i{
-    width: 4rem;
-    height: 4rem;
-}
-.voltear{
-    transform: rotate(30deg);
+section i{
+    font-size: 1.8rem;
 }
