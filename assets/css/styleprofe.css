@@ -1,6 +1,7 @@
 
 body{
     background-color: black;
+    color: white;
 }
 
 
@@ -10,4 +11,21 @@ nav{
 }
 nav div a img{
     width: 2rem;
+}
+
+hr{
+    height: 0.1rem;
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+
+/* presentacion */
+.colorItems{
+    color: white;
+}
+.colorFondo{
+    background-color: #43b1b1;
+}
+i{
+    font-size: 1.5rem;
 }
