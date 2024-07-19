@@ -46,3 +46,11 @@ i{
 .btn{
     background-color: #43b1b1;
 }
+
+/* footer */
+.textFooter{
+    font-size: 1rem;
+}
+.mizquierda{
+    margin-left: 10rem;
+}
