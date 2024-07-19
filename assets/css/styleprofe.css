@@ -29,3 +29,13 @@ hr{
 i{
     font-size: 1.5rem;
 }
+
+/* cards */
+.altoTarjeta{
+    height: 40%;
+    height: 8rem;
+}
+.card-body{
+    background-color: #43b1b1 ;
+    color: white;
+}
