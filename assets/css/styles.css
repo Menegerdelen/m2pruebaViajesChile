@@ -17,7 +17,7 @@ hr{
     background-color: #ffffff;
     opacity: 0.5;}
 
-/*´resentacion */
+/*presentacion */
 section{
     color: white;
 }
@@ -31,8 +31,19 @@ section i{
     font-size: 1.8rem;
 }
 
+/* contacto*/
+.btn{
+    background-color: #43b1b1;
+}
+
 
 /* cards */
+.card{
+    height: 100%;
+}
+.altoCards{
+    height: 50%;
+}
 .card-body{
     background-color: #43b1b1 ;
     color: white;
@@ -43,9 +54,41 @@ footer{
     background-color: #43b1b1 ;
     color: white;
 }
-.textFooter{
+.footer-text {
     font-size: 2rem;
+    letter-spacing: 1px;
 }
-footer i{
-    font-size: 1.2rem;
+
+footer i {
+    font-size: 2rem;
+    color: white;
+}
+
+/* Ajustes para el espaciado y centrado */
+footer.container-fluid {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+}
+
+footer .container {
+    max-width: 1140px; /* Ajusta este valor según tus necesidades */
+}
+
+/* Ajusta el espacio entre los iconos */
+footer .col-auto:last-child {
+    padding-right: 15px;
+}
+
+footer .col-auto:first-child {
+    padding-left: 15px;
+}
+
+/* Asegura que en pantallas pequeñas el contenido se centre */
+@media (max-width: 768px) {
+    footer .row {
+        justify-content: center !important;
+    }
+    footer .col-auto {
+        margin-bottom: 10px;
+    }
 }
